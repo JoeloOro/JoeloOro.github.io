@@ -1,0 +1,70 @@
+
+body {
+    background: rgb(46, 46, 46);
+}
+
+.header-menu {
+    background: brown;
+    display: grid;
+    grid-template-columns: 150px 130px 150px 250px; 
+    align-items: center;
+    font-size: 25px;
+    color:  #fff;
+}
+.header-menu il a {
+    text-decoration: none;
+}
+.header-menu il a:hover{
+    border-bottom: 2px solid rgb(212, 212, 212);
+}
+
+a {
+    color: rgb(212, 212, 212);
+    
+}
+
+form {
+    width: 450px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+}
+h2 {
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+input, textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+}
+textarea {
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+#boton {
+    background: #31384A;
+    color: #fff;
+    padding: 20px;
+}
+
+#boton:hover {
+    cursor: pointer;
+}
+
+@media (max-width : 480px) {
+    form {
+    width: 100%;
+        }
+    }

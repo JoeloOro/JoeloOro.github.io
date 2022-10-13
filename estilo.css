@@ -1,0 +1,100 @@
+* {
+    padding: 10;
+    margin: 15;
+    color: rgb(212, 212, 212);
+}
+
+body {
+    background: rgb(46, 46, 46);
+}
+
+h2 {
+    font-size: 35px;
+}
+
+p {
+    font-size: 30px;
+}
+
+a {
+    color: rgb(212, 212, 212);
+
+}
+
+.margin {
+    margin: 0;
+}
+
+.content {
+    display: grid;
+    flex-direction: column;
+}
+
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.header, main, .aside, .footer {
+    padding: 20px;
+}
+.imagen {
+    margin-left: 30%;
+    width: 250px;
+    height: 250px;
+    background-image: url(IMG.jpg);
+    background-size: 100%;
+    border: 5px solid rgb(22, 22, 22);
+    border-radius: 40%;
+}
+.header {
+    display: grid;
+    grid-template-columns: 100%;
+    
+}
+.header-menu {
+    background: brown;
+    display: grid;
+    grid-template-columns: 150px 130px 150px 250px; 
+    align-items: center;
+    font-size: 25px;
+    border-radius: 5%;
+    position: sticky;
+}
+.header-menu il a {
+    text-decoration: none;
+}
+.header-menu il a:hover{
+    border-bottom: 2px solid rgb(212, 212, 212);
+}
+.main {
+    border-bottom: 2px solid rgb(73, 73, 73);
+}
+.footer {
+    background: rgb(73, 73, 73);
+    
+}
+@media screen and (min-width: 750px) {
+    p {
+        font-size: 25px;
+    }
+    .imagen {
+        margin-left: 10%;
+    }
+    .margin {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    
+    .main-personal {
+        display: grid;
+        grid-template-columns: 50% 60%; 
+    }
+
+
+
+    
+
+}
+
